@@ -1,44 +1,20 @@
-<html>
-    <head>
-        <title> Lucas Konrath Damaceno's Website </title>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.5.3/css/bulma.min.css">
-        <link rel="stylesheet" href="css/style.css">
-    </head>
-
-    <body>
-
-        <section class="hero is-fullheight is-bold is-dark">
-            <div class="hero-body">
-                <div class="container has-text-centered">
-                    <div class="columns is-vcentered">
-                        <div class="column is-5">
-                            <figure class="image">
-                                <img src="imgs/me.jpg" id="myAvatar" alt="Description">
-                            </figure>
-                        </div>
-                        <div class="column is-6 is-offset-1">
-                            <h1 class="title is-2">
-                                Lucas Konrath Damaceno
-                            </h1>
-                            <h2 class="subtitle is-4">
-                                Senior Backend Engineer @ Hypeflame
-                            </h2>
-                            <br>
-                            <p class="has-text-centered">
-                                <a href="http://github.com/LucasKonrath" class="button is-large">
-                                    My Repo
-                                </a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+---
+layout: default
+---
 
 
+{% include career-profile.html %}
 
-    </body>
+{% unless site.data.data.sidebar.education %}
+  {% include education.html %}
+{% endunless %}
 
+{% include experiences.html %}
 
-</html>
+{% include projects.html %}
+
+{% include oss-contributions.html %}
+
+{% include publications.html %}
+
+{% include skills.html %}
