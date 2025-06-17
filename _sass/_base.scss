@@ -213,7 +213,6 @@ p {
     }
   }
 
-  .experiences-section,
   .educations-section {
     .item {
       margin-bottom: 30px;
@@ -262,14 +261,6 @@ p {
       .fab {
         font-size: 18px;
       }
-    }
-  }
-  .projects-section {
-    .intro {
-      margin-bottom: 30px;
-    }
-    .item {
-      margin-bottom: 15px;
     }
   }
 
@@ -420,8 +411,7 @@ p {
 }
 
 /* Enhanced Card Styling for Experience and Education */
-.experiences-section,
-.education-section {
+.section {
   .item {
     background: #fff;
     border-radius: 8px;
@@ -705,8 +695,7 @@ p {
   }
   
   .project-item,
-  .experiences-section .item,
-  .education-section .item {
+  .section .item {
     background: var(--card-bg);
     color: var(--text-color);
     box-shadow: 0 2px 8px var(--shadow);
@@ -757,8 +746,8 @@ p {
     padding: 12px;
   }
   
-  .experiences-section .item,
-  .education-section .item {
+  .project-item,
+  .section .item {
     padding: 12px;
     margin-bottom: 10px;
   }

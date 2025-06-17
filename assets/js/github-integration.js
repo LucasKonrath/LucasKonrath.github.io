@@ -84,7 +84,7 @@ $(document).ready(function() {
     }
 
     // Only fetch if we're not in development mode and the projects section exists
-    if ($('.projects-section').length > 0 && window.location.hostname !== 'localhost') {
+    if ($('.projects-grid').length > 0 && window.location.hostname !== 'localhost') {
         fetchGitHubRepos();
         setTimeout(addLanguageColors, 1000);
     }
