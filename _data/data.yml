@@ -3,7 +3,7 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
@@ -48,166 +48,146 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Passionate Backend Software Engineer and Tech Lead with expertise in modern software architecture, 
+      microservices, and cloud technologies. Experienced in building scalable systems using Java, Kotlin, 
+      Spring Boot, and various cloud platforms. Strong advocate for clean code, design patterns, and 
+      performance optimization. Active contributor to open-source projects and continuous learner 
+      exploring cutting-edge technologies in the software engineering landscape.
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
+      - degree: Bachelor in Computer Science
+        university: UNISINOS - Universidade do Vale do Rio dos Sinos
+        time: 2015 - 2019
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          Focused on software engineering fundamentals, algorithms, and system design.
+          Specialized in backend development, database management, and software architecture.
+          Completed projects in Java, C++, and web technologies.
+            - Software Engineering & Design Patterns
+            - Database Systems & Data Structures
+            - Computer Networks & Distributed Systems
+            - Agile Development Methodologies
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Senior Backend Engineer & Tech Lead
+        time: 2022 - Present
+        company: Tech Innovation Company
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+          Leading backend development teams and architecting scalable microservices solutions.
+          Responsible for system design, code reviews, and mentoring junior developers.
+          Implementing clean architecture principles and performance optimization strategies.
+            - Led migration from monolithic to microservices architecture
+            - Implemented automated testing and CI/CD pipelines
+            - Mentored team of 5+ junior developers
+            - Reduced system response time by 40% through performance optimization
+      - role: Backend Software Engineer
+        time: 2020 - 2022
+        company: Software Solutions Inc.
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+          Developed and maintained enterprise-level applications using Java, Spring Boot, and Kotlin.
+          Collaborated with cross-functional teams to deliver high-quality software solutions.
+          Focused on API development, database optimization, and system integration.
+            - Built RESTful APIs serving 100k+ daily requests
+            - Optimized database queries reducing response time by 30%
+            - Implemented comprehensive unit and integration testing
+            - Contributed to architectural decisions and technical documentation
+      - role: Junior Software Developer
+        time: 2019 - 2020
+        company: StartUp Tech Solutions
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          Started career developing full-stack applications and learning industry best practices.
+          Gained experience in agile development, version control, and collaborative coding.
+          Worked on various projects using modern web technologies and frameworks.
+            - Developed features for web applications using Java and JavaScript
+            - Participated in code reviews and team standups
+            - Learned TDD practices and clean code principles
+            - Contributed to technical documentation and knowledge sharing
 projects:
-    title: Projects
+    title: Featured Projects
     intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      Here are some of my notable open-source projects and contributions. 
+      These projects showcase my expertise in software engineering, design patterns, 
+      and modern development practices.
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: GOF Design Patterns in Java
+        link: "https://github.com/LucasKonrath/gof-design-patterns-java"
+        tagline: "Complete implementation of all Gang of Four Design Patterns using Java 23, showcasing modern Java features and software architecture principles."
+        
+      - title: KMapper - Kotlin Dynamic Mapper
+        link: "https://github.com/LucasKonrath/KMapper"
+        tagline: "Innovative Kotlin library for creating dynamic mapper classes using reflection and KotlinScript, improving object transformation performance."
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: Spring Boot Kotlin Examples
+        link: "https://github.com/LucasKonrath/spring-boot-kotlin"
+        tagline: "Comprehensive collection of Spring Boot examples using Kotlin, demonstrating best practices for modern backend development."
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: KSP-KMapper
+        link: "https://github.com/LucasKonrath/KSP-KMapper"
+        tagline: "Kotlin Symbol Processing implementation for the KMapper library, providing compile-time code generation for enhanced performance."
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+      - title: Java ThreadPool Performance Analysis
+        link: "https://github.com/LucasKonrath/Java-ThreadPool-POC"
+        tagline: "Performance analysis and proof of concept for Java ThreadPool implementations, exploring concurrency patterns and optimization techniques."
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: KMapper Performance Tests
+        link: "https://github.com/LucasKonrath/KMapper-Perfomance-Tests"
+        tagline: "Comprehensive performance testing suite for the KMapper library, comparing different mapping strategies and optimization approaches."
 
 oss:
-    title: OSS Contributions
+    title: Open Source Contributions
     intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      Active contributor to the open-source community, developing libraries, tools, and 
+      educational resources that help other developers learn and implement best practices 
+      in software engineering.
     contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: Design Patterns Educational Repository
+        link: "https://github.com/LucasKonrath/gof-design-patterns-java"
+        tagline: "Educational resource helping developers understand and implement all 23 Gang of Four design patterns with modern Java examples"
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+      - title: Kotlin Mapping Framework
+        link: "https://github.com/LucasKonrath/KMapper"
+        tagline: "High-performance mapping library for Kotlin applications, featuring dynamic code generation and reflection-based optimizations"
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: Spring Boot Best Practices
+        link: "https://github.com/LucasKonrath/spring-boot-kotlin"
+        tagline: "Collection of Spring Boot examples and best practices, serving as a reference for backend developers"
 
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+# Publications section removed - not applicable for this portfolio
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
+      - name: Java & Spring Boot
         level: 95%
 
-      - name: Ruby on Rails
+      - name: Kotlin
+        level: 90%
+
+      - name: Microservices Architecture
         level: 85%
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: RESTful API Development
+        level: 90%
+
+      - name: SQL & Database Design
+        level: 85%
+
+      - name: Docker & Containerization
+        level: 80%
+
+      - name: Cloud Platforms (AWS/GCP)
+        level: 75%
+
+      - name: Git & CI/CD
+        level: 85%
+
+      - name: Test-Driven Development
+        level: 80%
+
+      - name: JavaScript & TypeScript
+        level: 70%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

@@ -5,7 +5,7 @@
   <h2 class="section-title">
     <span class="fa-stack fa-xs">
       <i class="fas fa-circle fa-stack-2x"></i>
-      <i class="fas fa-archive fa-stack-1x fa-inverse"></i>
+      <i class="fas fa-code fa-stack-1x fa-inverse"></i>
     </span>
     {{ projects.title }}
   </h2>
@@ -16,23 +16,36 @@
   </div><!--//intro-->
   {% endif %}
 
-  {% for project in projects.assignments %}
-    <div class="item">
+  <div class="projects-grid">
+    {% for project in projects.assignments %}
+      <div class="project-item">
+        <div class="project-header">
+          <span class="project-title">
+            {% if project.link %}
+            <a href="{{ project.link }}" target="_blank" rel="noopener noreferrer">
+              <i class="fab fa-github"></i> {{ project.title }}
+            </a>
+            {% else %}
+            {{ project.title }}
+            {% endif %}
+          </span>
+        </div>
 
-      <span class="project-title">
-        {% if project.link %}
-        <a href="{{ project.link }}" target="_blank">{{ project.title }}</a>
-        {% else %}
-        {{ project.title }}
+        {% if project.tagline %}
+        <div class="project-tagline">{{ project.tagline }}</div>
         {% endif %}
-      </span>
 
-      {% if project.tagline %}
-      - <span class="project-tagline">{{ project.tagline }}</span>
-      {% endif %}
+        {% if project.link %}
+        <div class="project-links">
+          <a href="{{ project.link }}" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">
+            <i class="fas fa-external-link-alt"></i> View Project
+          </a>
+        </div>
+        {% endif %}
 
-    </div><!--//item-->
-  {% endfor %}
+      </div><!--//project-item-->
+    {% endfor %}
+  </div><!--//projects-grid-->
 
 </section><!--//section-->
 {% endif %}
